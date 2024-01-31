@@ -1,0 +1,747 @@
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+
+.yoga-section{
+
+    width: 100%;
+    height: auto;
+}
+
+.yoga-container{
+   
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+
+.card-1{
+    width: 50%;
+    height: 100vh;
+   
+}
+
+.card-2{
+    
+    text-align: center;
+    width: 50%;
+    height: 100vh;
+
+}
+
+.hero-image{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.image-holder-2{
+    width: 170px;
+    height: fit-content;
+    
+    margin: auto;
+}
+
+.image-holder-2 > .icon-image{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-top: x;
+}
+
+.card-2{
+    
+    text-align: center;
+    width: 50%;
+    height: 100vh;
+
+}
+
+.card-holder{
+    display: flex;
+  
+}
+
+
+.icon-image{
+    padding: 65px 0px 20px 0px;
+}
+
+.icon-head{
+    padding: 0px 0px 30px 0px;
+    color: #111111;
+    font-weight: 400;
+    font-size: 68px;
+    font-family: Oleo Script;
+
+}
+
+.icon-para{
+    padding: 0px 0px 110px 0px;
+    color: #111;
+    font-family: Open Sans;
+    font-weight: 500;
+    font-size: large;
+   
+}
+
+.icon-submit-btn{
+    padding: 20px 70px 20px 70px;
+    border: 1px solid black;
+    letter-spacing: 1px;
+    border-radius: 30px;
+
+}
+
+.text-color{
+    color: #dfc327;
+    
+    
+}
+
+.card-container{
+    height: auto;
+    background-color: #dfc327;
+    display: flex;
+    gap: 20px;
+    padding: 70px 20px 70px 115px;
+    
+}
+
+.division-card{
+    
+    width: 20%;
+    height: 33vh;
+    background-color: #fff;
+    border-radius: 15%;
+    
+}
+
+.division-img{
+   
+    width: 19%;
+    justify-content: center;
+    border-radius: 50% 50%;
+    background-color: #dfc327;
+    padding: 15px;
+    margin: 40px 0px 20px 87px;
+    
+}
+
+.division-img-holder{
+   
+}
+
+.division-para{
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: large;
+    letter-spacing: 2px;
+}
+
+.yoga-container-2{
+   
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.yoga-videos-image{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.yoga-videos-card-2{
+ 
+    text-align: center;
+    width: 50%;
+    height: 100vh;
+    
+}
+
+.yoga-videos-card-1{
+    
+    width: 50%;
+    height: 100vh;
+}
+
+.yoga-head{
+    padding: 15px 20px 30px 0px;
+    font-weight: 600;
+    font-size: 45px;
+    font-family: Montserrat;
+}
+
+ul{
+    list-style: none;
+}
+
+ul > li{
+    display: flex;
+}
+
+.listing-tags{
+    width: 30%;
+    margin-left: 158px;
+}
+
+
+.tick{
+    font-family: Open Sans;
+    font-weight: 400;
+    padding-bottom: 13px;
+}
+
+.btn-2{
+    padding: 15px 30px 15px 30px;
+    border-radius: 30px;
+    
+}
+
+.btn-holder{
+    padding: 200px 170px 0px 0px;
+}
+
+
+.container-3{
+    display: flex;
+    gap: 20px;
+    height: auto;
+    padding-bottom: 70px;
+    background-color: #dfc327;
+    padding: 50px 0px 100px 90px;
+    
+  
+}
+
+.flex-card{
+   
+    width: 200px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 5px 60px 5px;
+    border-radius: 12px;
+    background-color: #ffffffff;
+    
+    
+}
+
+.image-card{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #dfc327;
+ 
+    
+}
+
+.image-card > img{
+    height: inherit;
+    width: inherit;
+    object-position: 50% 50%;
+    object-fit: cover;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.para-text{
+    line-height: 30px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.card-head{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 0px 20px 0px;
+    font-weight: 900;
+}
+
+.link-holder{
+    color: #111111; 
+    font-family: 'Open Sans', sans-serif; 
+}
+
+
+.container-4{
+    
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+
+.card-voyages{
+    height: 100vh;
+    width: 50%;
+}
+
+.voyages-img{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.voyages-text{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+    padding-bottom: 120px;
+
+}
+
+.voyages-icon{
+    width: 10%;
+    margin: 70px 0px 20px 300px;
+}
+
+.button{
+    padding: 20px 60px 20px 60px;
+    margin-left: 230px;
+    border-radius: 30px;
+}
+
+.container-5{
+   
+    height: 110vh;
+    margin: 0 auto;
+   
+    background-color: #dfc327;
+    display: flex;
+}
+
+.card-download{
+    height: 120vh;
+    width: 50%;
+   
+}
+
+.download-img{
+    height: 85vh;
+    width: 50%;
+    padding: 90px 0px 70px 260px;
+  
+}
+
+
+.download{
+    
+    height: 70vh;
+    width: 50%;
+    margin: 65px;
+    text-align: center;
+
+}
+
+.download-head{
+color:#dfc327;
+
+background-color: #fff;
+border-radius: 50px;
+font-family: Montserrat;
+font-size: medium;
+font-weight: 900;
+margin: 0px 215px 0px 215px;
+padding: 5px 0px 5px 0px;
+
+}
+
+.M-app{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: Montserrat;
+    padding: 20px 0px 30px 0px;
+}
+
+.download-para{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 35px;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.now{
+    padding: 30px 0px 10px 0px;
+    font-size: 18px;
+    font-family: Montserrat;
+
+}
+
+.container-6{
+  
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+
+.card-memberships{
+    height: 100vh;
+    width: 50%;
+    
+}
+
+.m-head{
+    
+    text-align: center;
+    margin-top: 140px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.m-para{
+   
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+
+.m-img{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    object-position: 50% 50%;
+   
+}
+
+.membership-image{
+    width: 50%;
+}
+
+.b-m{
+    padding: 20px 60px 20px 60px;
+    border-radius: 30px;
+    margin: 200px 0px 0px 230px;
+
+}
+
+.container-7{
+   
+    background-color: #dfc327;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    gap: 80px;
+    padding-bottom: 80px;
+}
+
+.about-us-card{
+  
+    width: 20%;
+    height: 55vh;
+    margin: 90px 0px 0px 100px;
+
+}
+
+.a-u-hd{
+    padding-bottom: 30px;
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 18px;
+
+}
+
+.a-u-h{
+    padding-bottom: 20px;
+    font-family: Montserrat;
+    font-weight: 600;
+
+}
+
+.a-u-p{
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 30px;
+   
+}
+
+.corporate-card{
+   
+    background-color: #fff;
+    width: 25%;
+    height: 35vh;
+    border-radius: 30px;
+    margin-top: 50px;
+    
+}
+
+.corporate-head{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    font-family: Montserrat;
+    font-weight: 900;
+}
+
+.corporate-para{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+
+.benefits-card{
+   
+    background-color: #111111;
+    width: 150%;
+    height: 35vh;
+    border-radius: 30px;
+    margin-top: 180px;
+}
+
+.benefits-head{
+    text-align: center;
+    color: #fff;
+    font-family: Montserrat;
+    padding-top: 40px;
+}
+
+.benefits-para{
+    text-align: center;
+    padding-top: 20px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+.container-8{
+   
+    height: auto;
+    display: flex;
+    
+}
+
+.club-img{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.club-card{
+    width: 50%;
+    height: 100vh;
+}
+
+.club-head{
+    font-family: Montserrat;
+    font-size: 45px;
+    padding: 40px 0px 20px 0px;
+}
+
+.club-line{
+    border-bottom: 1px solid #111;
+    width: 70%;
+}
+
+.club-h{
+    padding: 100px 0px 30px 0px;
+    font-family: Montserrat;
+    font-size: 18px;
+}
+
+.club-para{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 35px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.club-h-1{
+    padding: 30px 0px 20px 0px;
+    font-family: Montserrat;
+    font-size: 18px;
+}
+
+.c-b{
+    padding: 20px 60px 20px 60px;
+    border-radius: 30px;
+    margin: 30px 0px 0px 160px;
+}
+
+.container-9{
+    padding: 0px 0px 80px 0px;
+    height: auto;
+    display: flex;
+  
+    background-color: #dfc327;
+}
+
+.contact-card{
+  
+    padding: 0px 0px 0px 150px;
+    width: 45%;
+    
+}
+
+.contact-line{
+    border-bottom: 1px solid #111;
+    width: 85%;
+}
+
+.contact-head{
+    padding: 50px 0px 20px 0px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.contact-q{
+    font-family: Montserrat;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.sydney{
+    padding: 20px 0px 20px 0px;
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.sydney-para{
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 30px;
+}
+
+.get-card{
+    
+    background-color: #fff;
+    width: 38%;
+    height: 103vh;
+    border-radius: 30px;
+    margin: 8px 0px 0px 0px;
+   
+    
+}
+
+.get-head{
+    padding: 28px 0px 15px 25px;
+    font-family: Montserrat;
+    font-size: 33px;
+}
+
+.get-para{
+    padding: 0px 0px 0px 25px;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.form{
+    
+    height: 73vh;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding: 40px 0px 0px 25px;
+   
+}
+
+.p{
+    border: none;
+    padding: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.get-line{
+    width: 88%;
+    border-bottom: 1px solid #111;  
+    margin-left: 15px;
+}
+
+.help{
+    padding: 25px 0px 100px 0px; 
+
+}
+
+.get-btn{
+    color: #fff;
+    background-color: #111;
+    border-radius: 30px;
+    padding: 15px 190px 15px 190px;
+    margin: 25px 0px 0px 15px;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
